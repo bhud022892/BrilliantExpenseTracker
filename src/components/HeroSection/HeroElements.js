@@ -7,7 +7,9 @@ export const HeroContainer = styled.div`
     /* background: #3f4243; */
     background-image: url(${img});
     width: 100%;
-    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
